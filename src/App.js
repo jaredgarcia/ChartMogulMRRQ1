@@ -10,7 +10,7 @@ const defaultLineData = {
   labels: ['January', 'February', 'March', 'April'],
   datasets: [
     {
-      label: 'Monthly MRR',
+      label: 'Total MRR',
       fill: false,
       lineTension: 0.1,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -60,7 +60,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Company Monthly Recurring Revenue
+          Company MRR for Q1 2019
         </p>
         <div className="chart-container">
           <Line data={lineData} />
